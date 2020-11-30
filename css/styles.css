@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -83,6 +84,7 @@ h1 {
 .header-container__toggle-ru {
     text-decoration: none;
     position: relative;
+    transition: .4s;
     height: 31px;
     width: 50px;
     box-sizing: border-box;
@@ -94,6 +96,8 @@ h1 {
     -webkit-filter: drop-shadow(10px 10px 30px rgba(73, 180, 209, 0.5)), drop-shadow(-10px -10px 70px rgba(255, 255, 255, 0.2));
     filter: drop-shadow(10px 10px 30px rgba(73, 180, 209, 0.5)), drop-shadow(-10px -10px 70px rgba(255, 255, 255, 0.2));
 }
+
+
 
 .header-container__toggle-ru:before {
     content: '';
@@ -121,6 +125,7 @@ h1 {
 
 
 .header-container__toggle-eng {
+    transition: .4s;
     text-decoration: none;
     position: relative;
     height: 31px;
