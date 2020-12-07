@@ -41,7 +41,7 @@ toggleLangEng.addEventListener('click', function () {
         toggleLangRu.classList.remove('active');
         loginBtn.innerHTML = 'Sign In';
         regBtn.innerHTML = 'Register';
-        mainSectTitle.innerHTML = `Give your percentage to you!`;
+        mainSectTitle.innerHTML = `Give our percentage to you!`;
         mainSectText.innerHTML =
             'This is not just a click-beit headline, <br>\n' +
         'but a fair promise to our honest partners! <br>\n' +
